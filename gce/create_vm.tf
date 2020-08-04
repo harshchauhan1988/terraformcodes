@@ -6,7 +6,7 @@ variable "region" {
   default = "us-east1"
 }
 variable "project" {
-  default = "prime-keel-109719"
+  default = "xxxxx"
 }
 variable "network_name1"{}
 variable "network_name2"{}
@@ -17,7 +17,7 @@ variable "network_name3"{}
 ##################################################################################
 
 provider "google" {
- credentials = file("D:\\Learning\\Terraform\\prime-keel-109719-a36ce534feaa.json")
+ credentials = file("D:\\Learning\\Terraform\\xxxxx-a36ce534feaa.json")
  project     = var.project
  region      = var.region
 }
